@@ -1,4 +1,4 @@
-***## Task Manager***
+## TASK MANAGER
 
 ## Tech Stack
 Java  
