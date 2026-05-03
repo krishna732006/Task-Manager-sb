@@ -1,7 +1,6 @@
-***Task Manager***
+***## Task Manager***
 
-**Tech Stack**
-
+## Tech Stack
 Java  
 Spring Boot  
 Spring Data JPA  
@@ -9,16 +8,14 @@ MySQL
 HTML  
 Tailwind CSS  
 
-**Features**
-
+## Features
 Create, view, update, delete tasks  
 Status tracking (PENDING / COMPLETED)  
 REST API integration  
 Simple frontend UI connected to backend  
 Data persistence using MySQL  
 
-**API Endpoints**
-
+## API Endpoints
 Task  
 POST /tasks  
 GET /tasks  
@@ -26,16 +23,14 @@ GET /tasks/{id}
 PUT /tasks/{id}  
 DELETE /tasks/{id}  
 
-**Key Concepts Implemented**
-
+## Key Concepts Implemented
 REST API design  
 Layered architecture (Controller, Service, Repository)  
 Database integration with JPA  
 Frontend-backend connection using fetch API  
 Basic CORS handling  
 
-**How to Run**
-
+## How to Run
 Clone the repository  
 Create database 'taskdb' in MySQL  
 Update application.properties with DB credentials  
