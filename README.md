@@ -1,38 +1,36 @@
-## TASK MANAGER
+##TASK MANGER APPLICATION
 
-## Tech Stack
-Java  
-Spring Boot  
-Spring Data JPA  
-MySQL  
-HTML  
-Tailwind CSS  
+Tech Stack
+Java
+Spring Boot
+Spring Data JPA
+MySQL
+HTML
+Tailwind CSS
+Features
+Full CRUD operations for task management
+Task status tracking (PENDING / COMPLETED)
+RESTful API integration
+Lightweight frontend connected to backend
+Persistent storage using MySQL
+API Endpoints
 
-## Features
-Create, view, update, delete tasks  
-Status tracking (PENDING / COMPLETED)  
-REST API integration  
-Simple frontend UI connected to backend  
-Data persistence using MySQL  
+Task
 
-## API Endpoints
-Task  
-POST /tasks  
-GET /tasks  
-GET /tasks/{id}  
-PUT /tasks/{id}  
-DELETE /tasks/{id}  
-
-## Key Concepts Implemented
-REST API design  
-Layered architecture (Controller, Service, Repository)  
-Database integration with JPA  
-Frontend-backend connection using fetch API  
-Basic CORS handling  
-
-## How to Run
-Clone the repository  
-Create database 'taskdb' in MySQL  
-Update application.properties with DB credentials  
-Run the Spring Boot application  
-Open frontend/index.html in browser  
+POST /tasks – Create a new task
+GET /tasks – Retrieve all tasks
+GET /tasks/{id} – Retrieve a task by ID
+PUT /tasks/{id} – Update a task
+DELETE /tasks/{id} – Delete a task
+Key Concepts Implemented
+RESTful API design principles
+Layered architecture (Controller → Service → Repository)
+Database integration using JPA (ORM)
+Frontend–backend communication using Fetch API
+Basic CORS configuration
+How to Run
+Clone the repository
+Create a MySQL database named taskdb
+Update application.properties with your database credentials
+Run the Spring Boot application
+Open frontend/index.html in a browser
